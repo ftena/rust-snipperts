@@ -8,3 +8,6 @@ https://doc.rust-lang.org/rust-by-example/hello/print.html
 https://doc.rust-lang.org/stable/rust-by-example/primitives/tuples.html
 
 https://doc.rust-lang.org/stable/rust-by-example/primitives/array.html
+
+## More about match, destructuring in a match block, guards and binding
+https://doc.rust-lang.org/stable/rust-by-example/flow_control/match.html
