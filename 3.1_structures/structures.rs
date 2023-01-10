@@ -49,6 +49,8 @@ fn main() {
     println!("{:?}", peter);
 
     // Instantiate a `Point`
+    // In this case, using regular annotation, check:
+    //    https://doc.rust-lang.org/stable/rust-by-example/primitives.html
     let point: Point = Point { x: 10.3, y: 0.4 };
 
     // Access the fields of the point

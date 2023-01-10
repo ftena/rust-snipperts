@@ -1,3 +1,5 @@
+// more info @ https://doc.rust-lang.org/stable/rust-by-example/flow_control/if_let.html
+//
 // This enum purposely neither implements nor derives PartialEq.
 // That is why comparing Foo::Bar == a fails below.
 enum Foo {Bar}
