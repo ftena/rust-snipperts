@@ -20,5 +20,10 @@ https://doc.rust-lang.org/stable/rust-by-example/fn/closures.html
 - Example in std:
     - Using Iterator::any, iter() and into_iter(): https://doc.rust-lang.org/stable/rust-by-example/fn/closures/closure_examples/iter_any.html
     - Using Iterator::find, iter() and into_iter(): https://doc.rust-lang.org/stable/rust-by-example/fn/closures/closure_examples/iter_find.html
-
 - Diverging functions: https://doc.rust-lang.org/stable/rust-by-example/fn/diverging.html
+
+## More info about modules
+https://doc.rust-lang.org/stable/rust-by-example/mod.html
+
+- Visibility: https://doc.rust-lang.org/stable/rust-by-example/mod/visibility.html
+- use declaration: https://doc.rust-lang.org/stable/rust-by-example/mod/use.html
