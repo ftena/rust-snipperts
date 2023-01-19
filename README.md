@@ -26,4 +26,4 @@ https://doc.rust-lang.org/stable/rust-by-example/fn/closures.html
 https://doc.rust-lang.org/stable/rust-by-example/mod.html
 
 - Visibility: https://doc.rust-lang.org/stable/rust-by-example/mod/visibility.html
-- use declaration: https://doc.rust-lang.org/stable/rust-by-example/mod/use.html
+- `use` declaration: https://doc.rust-lang.org/stable/rust-by-example/mod/use.html
