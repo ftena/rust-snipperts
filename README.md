@@ -27,3 +27,6 @@ https://doc.rust-lang.org/stable/rust-by-example/mod.html
 
 - Visibility: https://doc.rust-lang.org/stable/rust-by-example/mod/visibility.html
 - `use` declaration: https://doc.rust-lang.org/stable/rust-by-example/mod/use.html
+- `super` and `self`: https://doc.rust-lang.org/stable/rust-by-example/mod/super.html
+
+Modules can be mapped to a file/directory hierarchy. More info @ https://doc.rust-lang.org/stable/rust-by-example/mod/split.html
