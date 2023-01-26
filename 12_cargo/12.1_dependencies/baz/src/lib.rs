@@ -1,4 +1,4 @@
-pub fn substract(left: usize, right: usize) -> usize {
+pub fn substract(left: isize, right: isize) -> isize {
     left - right
 }
 
