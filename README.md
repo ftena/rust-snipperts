@@ -37,3 +37,11 @@ https://doc.rust-lang.org/stable/rust-by-example/crates.html
 A crate is a compilation unit in Rust. Whenever `rustc some_file.rs` is called, `some_file.rs` is treated as the crate file. If `some_file.rs` has `mod` declarations in it, then the contents of the module files would be inserted in places where `mod` declarations in the crate file are found, before running the compiler over it. In other words, modules do not get compiled individually, only crates get compiled.
 
 A crate can be compiled into a binary or into a library. By default, `rustc` will produce a binary from a crate. This behavior can be overridden by passing the `--crate-type` flag to `lib`.
+
+## Cargo
+https://doc.rust-lang.org/stable/rust-by-example/cargo/deps.html
+https://doc.rust-lang.org/cargo/reference/cargo-targets.html
+
+- Library: The filename defaults to `src/lib.rs`, and the name of the library defaults to the name of the package. A package can have only one library.
+- Binaries: The default binary filename is `src/main.rs`, which defaults to the name of the package. Additional binaries are stored in the `src/bin/` directory.
+

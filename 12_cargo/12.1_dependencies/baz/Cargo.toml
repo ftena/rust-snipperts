@@ -1,11 +1,8 @@
 [package]
-name = "foo"
+name = "baz"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bar = { path = "../bar" } # from a path in the local filesystem
-baz = { path = "../baz" } # from a path in the local filesystem
-
