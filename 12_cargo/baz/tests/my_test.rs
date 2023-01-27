@@ -1,3 +1,8 @@
+/*
+ * Integration tests go in a different directory, they don’t need the #[cfg(test)] annotation.
+ * More info @ https://doc.rust-lang.org/book/ch11-03-test-organization.html
+ */
+
 use baz;
 
 #[test]
