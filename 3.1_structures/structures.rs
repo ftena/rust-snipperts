@@ -39,6 +39,18 @@ fn rect_area(r: Rectangle) -> f32 {
     width * height
 }
 
+// It calculates the area of a Rectangle
+fn rect_area_by_ref(r: &Rectangle) -> f32 {
+    // Destructure the point using a `let` binding
+    let Point { x: x1, y: y1 } = r.top_left;
+    let Point { x: x2, y: y2 } = r.bottom_right;
+    
+    let width = (x2 - x1).abs();
+    let height = (y2 - y1).abs();
+    
+    width * height
+}
+
 fn main() {
     // Create struct with field init shorthand
     let name = String::from("Peter");
@@ -80,6 +92,19 @@ fn main() {
     };
     
     println!("rect_area: {}", rect_area(rectangle2));
+
+    // Error! rectable2 was moved before
+    // println!("rect_area: {}", rect_area(rectangle2));
+    // FIXME ^ Comment out this line
+    
+    // New rectangle to test the function rect_area_by_ref
+    let rectangle3 = Rectangle {
+        top_left: Point { x: 1.0, y: 3.0 },
+        bottom_right: Point { x: 3.0, y: 1.0 },
+    };
+
+    println!("rect_area_by_ref - first call: {}", rect_area_by_ref(&rectangle3));
+    println!("rect_area_by_ref - second call: {}", rect_area_by_ref(&rectangle3));
 
     // Instantiate a unit struct
     let _unit = Unit;
