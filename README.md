@@ -45,3 +45,7 @@ https://doc.rust-lang.org/cargo/reference/cargo-targets.html
 - Library: The filename defaults to `src/lib.rs`, and the name of the library defaults to the name of the package. A package can have only one library.
 - Binaries: The default binary filename is `src/main.rs`, which defaults to the name of the package. Additional binaries are stored in the `src/bin/` directory.
 
+## Attributes
+https://doc.rust-lang.org/stable/rust-by-example/attribute.html
+
+When attributes apply to a whole crate, their syntax is `#![crate_attribute]`, and when they apply to a module or item, the syntax is `#[item_attribute]` (notice the missing bang `!`).
