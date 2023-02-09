@@ -49,3 +49,12 @@ https://doc.rust-lang.org/cargo/reference/cargo-targets.html
 https://doc.rust-lang.org/stable/rust-by-example/attribute.html
 
 When attributes apply to a whole crate, their syntax is `#![crate_attribute]`, and when they apply to a module or item, the syntax is `#[item_attribute]` (notice the missing bang `!`).
+
+## Generics
+https://doc.rust-lang.org/stable/rust-by-example/generics.html
+
+A type parameter is specified as generic by the use of angle brackets and upper camel case: <Aaa, Bbb, ...>. "Generic type parameters" are typically represented as <T>.
+
+- Generics: https://doc.rust-lang.org/stable/rust-by-example/generics.html
+- Functions: https://doc.rust-lang.org/stable/rust-by-example/generics/gen_fn.html
+- Implementation: https://doc.rust-lang.org/stable/rust-by-example/generics/impl.html
