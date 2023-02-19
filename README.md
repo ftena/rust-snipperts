@@ -59,3 +59,5 @@ A type parameter is specified as generic by the use of angle brackets and upper 
 - Functions: https://doc.rust-lang.org/stable/rust-by-example/generics/gen_fn.html
 - Implementation: https://doc.rust-lang.org/stable/rust-by-example/generics/impl.html
 - Where clauses: https://doc.rust-lang.org/stable/rust-by-example/generics/where.html
+- Associated items: https://doc.rust-lang.org/stable/rust-by-example/generics/assoc_items.html
+- Phantom type parameters: https://doc.rust-lang.org/stable/rust-by-example/generics/phantom.html
