@@ -61,3 +61,7 @@ A type parameter is specified as generic by the use of angle brackets and upper 
 - Where clauses: https://doc.rust-lang.org/stable/rust-by-example/generics/where.html
 - Associated items: https://doc.rust-lang.org/stable/rust-by-example/generics/assoc_items.html
 - Phantom type parameters: https://doc.rust-lang.org/stable/rust-by-example/generics/phantom.html
+
+## Scoping rules
+- The notion of a destructor and `Drop` trait: https://doc.rust-lang.org/stable/rust-by-example/scope/raii.html
+- Partial moves: https://doc.rust-lang.org/stable/rust-by-example/scope/move/partial_move.html
