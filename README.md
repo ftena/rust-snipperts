@@ -65,3 +65,5 @@ A type parameter is specified as generic by the use of angle brackets and upper 
 ## Scoping rules
 - The notion of a destructor and `Drop` trait: https://doc.rust-lang.org/stable/rust-by-example/scope/raii.html
 - Partial moves: https://doc.rust-lang.org/stable/rust-by-example/scope/move/partial_move.html
+- Ref pattern: https://doc.rust-lang.org/stable/rust-by-example/scope/borrow/ref.html
+
