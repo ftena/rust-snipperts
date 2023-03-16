@@ -66,4 +66,8 @@ A type parameter is specified as generic by the use of angle brackets and upper 
 - The notion of a destructor and `Drop` trait: https://doc.rust-lang.org/stable/rust-by-example/scope/raii.html
 - Partial moves: https://doc.rust-lang.org/stable/rust-by-example/scope/move/partial_move.html
 - Ref pattern: https://doc.rust-lang.org/stable/rust-by-example/scope/borrow/ref.html
+- Lifetimes:
+    - Explicit annotation: the borrow checker uses explicit lifetime annotations to determine how long references should be valid.- https://doc.rust-lang.org/stable/rust-by-example/scope/lifetime/explicit.html
+    - Bounds: lifetimes (themselves generic) use bounds as well.- https://doc.rust-lang.org/stable/rust-by-example/scope/lifetime/lifetime_bounds.html
+    - Coercion: a longer lifetime can be coerced into a shorter one so that it works inside a scope it normally wouldn't work in.- https://doc.rust-lang.org/stable/rust-by-example/scope/lifetime/lifetime_coercion.html
 
