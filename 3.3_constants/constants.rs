@@ -1,3 +1,10 @@
+// more info @ https://doc.rust-lang.org/stable/rust-by-example/custom_types/constants.html
+// more info @ https://doc.rust-lang.org/stable/rust-by-example/scope/lifetime/static_lifetime.html
+
+// Two different types of constants which can be declared in any scope including global. Both require explicit type annotation:
+// * `const`: An unchangeable value (the common case).
+// * `static`: A possibly mutable variable with `'static` lifetime. The static lifetime is inferred and does not have to be specified. Accessing or modifying a mutable static variable is `unsafe`.
+
 // Globals are declared outside all other scopes and
 // the explicit type annotation is required
 static LANGUAGE: &str = "Rust";
