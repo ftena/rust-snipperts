@@ -70,4 +70,4 @@ A type parameter is specified as generic by the use of angle brackets and upper 
     - Explicit annotation: the borrow checker uses explicit lifetime annotations to determine how long references should be valid.- https://doc.rust-lang.org/stable/rust-by-example/scope/lifetime/explicit.html
     - Bounds: lifetimes (themselves generic) use bounds as well.- https://doc.rust-lang.org/stable/rust-by-example/scope/lifetime/lifetime_bounds.html
     - Coercion: a longer lifetime can be coerced into a shorter one so that it works inside a scope it normally wouldn't work in.- https://doc.rust-lang.org/stable/rust-by-example/scope/lifetime/lifetime_coercion.html
-
+    - Static: Rust has a few reserved lifetime names. One of those is 'static. You might encounter it in two situations: reference lifetime or trait bound.- https://doc.rust-lang.org/stable/rust-by-example/scope/lifetime/static_lifetime.html 
