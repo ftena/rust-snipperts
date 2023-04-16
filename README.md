@@ -74,3 +74,5 @@ A type parameter is specified as generic by the use of angle brackets and upper 
 
 ## Traits
 - Returning Traits with `dyn`: https://doc.rust-lang.org/stable/rust-by-example/trait/dyn.html#returning-traits-with-dyn
+- Operator Overloading: https://doc.rust-lang.org/stable/rust-by-example/trait/ops.html
+
