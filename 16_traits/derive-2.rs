@@ -42,7 +42,7 @@ fn main() {
     
     println!("rect_area: {}", rect_area(rectangle));
 
-    // No error! rectable can be copied!
+    // No error! rectangle can be copied!
     println!("rect_area: {}", rect_area(rectangle));
 }
 
