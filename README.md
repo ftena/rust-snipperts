@@ -15,8 +15,8 @@ https://doc.rust-lang.org/stable/rust-by-example/flow_control/match.html
 ## More about Closures
 https://doc.rust-lang.org/stable/rust-by-example/fn/closures.html
 
-- As input parameters: https://doc.rust-lang.org/stable/rust-by-example/fn/closures/input_parameters.html
-- As output parameters: https://doc.rust-lang.org/stable/rust-by-example/fn/closures/output_parameters.html
+- As input parameters (+ `Fn`, `FnMut` and `FnOnce`): https://doc.rust-lang.org/stable/rust-by-example/fn/closures/input_parameters.html
+- As output parameters (use `impl Trait` to return them): https://doc.rust-lang.org/stable/rust-by-example/fn/closures/output_parameters.html
 - Example in std:
     - Using Iterator::any, iter() and into_iter(): https://doc.rust-lang.org/stable/rust-by-example/fn/closures/closure_examples/iter_any.html
     - Using Iterator::find, iter() and into_iter(): https://doc.rust-lang.org/stable/rust-by-example/fn/closures/closure_examples/iter_find.html
