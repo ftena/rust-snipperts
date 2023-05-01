@@ -77,3 +77,4 @@ A type parameter is specified as generic by the use of angle brackets and upper 
 - Operator Overloading: https://doc.rust-lang.org/stable/rust-by-example/trait/ops.html
 - Iterators: https://doc.rust-lang.org/stable/rust-by-example/trait/iter.html
 - `impl Trait`: https://doc.rust-lang.org/stable/rust-by-example/trait/impl_trait.html
+- Supertraits: https://doc.rust-lang.org/stable/rust-by-example/trait/supertraits.html
