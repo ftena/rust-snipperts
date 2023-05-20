@@ -78,3 +78,7 @@ A type parameter is specified as generic by the use of angle brackets and upper 
 - Iterators: https://doc.rust-lang.org/stable/rust-by-example/trait/iter.html
 - `impl Trait`: https://doc.rust-lang.org/stable/rust-by-example/trait/impl_trait.html
 - Supertraits: https://doc.rust-lang.org/stable/rust-by-example/trait/supertraits.html
+
+## macro_rules!
+- Overload: https://doc.rust-lang.org/stable/rust-by-example/macros/overload.html
+- Repeat: Macros can use + in the argument list to indicate that an argument may repeat at least once, or *, to indicate that the argument may repeat zero or more times.- https://doc.rust-lang.org/stable/rust-by-example/macros/repeat.html
