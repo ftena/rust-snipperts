@@ -82,3 +82,6 @@ A type parameter is specified as generic by the use of angle brackets and upper 
 ## macro_rules!
 - Overload: https://doc.rust-lang.org/stable/rust-by-example/macros/overload.html
 - Repeat: Macros can use + in the argument list to indicate that an argument may repeat at least once, or *, to indicate that the argument may repeat zero or more times.- https://doc.rust-lang.org/stable/rust-by-example/macros/repeat.html
+- DRY: Macros allow writing DRY code by factoring out the common parts of functions and/or test suites.- https://doc.rust-lang.org/stable/rust-by-example/macros/dry.html
+- DSL: A DSL is a mini "language" embedded in a Rust macro. It is completely valid Rust because the macro system expands into normal Rust constructs, but it looks like a small language. This allows you to define concise or intuitive syntax for some special functionality (within bounds).- https://doc.rust-lang.org/stable/rust-by-example/macros/dsl.html
+- Variadics: A variadic interface takes an arbitrary number of arguments. For example, `println!` can take an arbitrary number of arguments, as determined by the format string.- https://doc.rust-lang.org/stable/rust-by-example/macros/variadics.html
