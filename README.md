@@ -85,3 +85,10 @@ A type parameter is specified as generic by the use of angle brackets and upper 
 - DRY: Macros allow writing DRY code by factoring out the common parts of functions and/or test suites.- https://doc.rust-lang.org/stable/rust-by-example/macros/dry.html
 - DSL: A DSL is a mini "language" embedded in a Rust macro. It is completely valid Rust because the macro system expands into normal Rust constructs, but it looks like a small language. This allows you to define concise or intuitive syntax for some special functionality (within bounds).- https://doc.rust-lang.org/stable/rust-by-example/macros/dsl.html
 - Variadics: A variadic interface takes an arbitrary number of arguments. For example, `println!` can take an arbitrary number of arguments, as determined by the format string.- https://doc.rust-lang.org/stable/rust-by-example/macros/variadics.html
+
+## Error handling
+https://doc.rust-lang.org/stable/rust-by-example/error.html
+
+- An explicit `panic` is mainly useful for tests and dealing with unrecoverable errors. For prototyping it can be useful, for example when dealing with functions that haven't been implemented yet, but in those cases the more descriptive `unimplemented` is better. In tests `panic` is a reasonable way to explicitly fail.
+- The `Option` type is for when a value is optional or when the lack of a value is not an error condition.
+- When there is a chance that things do go wrong and the caller has to deal with the problem, use Result.
