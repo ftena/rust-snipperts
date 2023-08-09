@@ -95,3 +95,4 @@ https://doc.rust-lang.org/stable/rust-by-example/error.html
 - Unpacking options with ?: You can unpack `Option`s by using `match` statements, but it's often easier to use the `?` operator. If `x` is an `Option`, then evaluating `x?` will return the underlying value if `x` is `Some`, otherwise it will terminate whatever function is being executed and return `None`.- https://doc.rust-lang.org/stable/rust-by-example/error/option_unwrap/question_mark.html
 - Combinators: map.- https://doc.rust-lang.org/stable/rust-by-example/error/option_unwrap/map.html
 - Combinators: and_then.- https://doc.rust-lang.org/stable/rust-by-example/error/option_unwrap/and_then.html
+- Defaults: `or`, `or_else`, `get_or_insert`, `get_or_insert_with`.- https://doc.rust-lang.org/stable/rust-by-example/error/option_unwrap/defaults.html
